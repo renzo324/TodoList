@@ -8,7 +8,7 @@ function getData() {
             var x = '';
 
             for (var i = 0, len = r.length; i < len; i++) {
-            x += '<li>' + r[i].task + '<button class="btn btn-light" onclick="deleteTask(' + r[i].id + ')">remove</button> </li> <br>' ;
+            x += '<li>' + r[i].task + '<button class="btn btn-light" onclick="deleteTask(' + r[i].id + ')">Done!</button> </li> <br>' ;
             }
 
             document.getElementById('todo').innerHTML = x;
