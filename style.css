@@ -1,0 +1,26 @@
+body{
+	background: #efefef;
+}
+.header{
+	width: 100%;
+	height: auto;
+}
+.start{
+	width: 100%;
+	height: auto;
+}
+.btn{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+.container{
+	width: 90%;
+	height: auto;
+	margin: 5%
+}
+
+#getStarted{
+	text-align: center;
+}
